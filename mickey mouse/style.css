@@ -1,0 +1,85 @@
+.box {
+    margin: 10px;
+	width: 31%;
+	height: 200px;
+    text-align: center;
+    float: left;
+    background-color: transparent;
+    border: 1px solid black; 
+}
+
+.ancestor { 
+position: relative; 
+left:100px;background-color: red; 
+width:200px; 
+height:150px;
+margin-left:200px;
+border-radius: 50%;
+}
+
+.hoofd {
+background-color: yellow; 
+margin-left: 20px;
+left: 10px;
+position: relative;
+border-radius: 50%;
+}
+
+.linksoor {
+float: right;
+left:5px;
+top:5px;
+background-color:blue;
+border-radius: 50%;
+}
+
+.rechtsoor {
+    float: left;
+    left:5px;
+    top:5px;
+    background-color:blue;
+    border-radius: 50%;
+    }
+
+    .box {
+    margin: 10px;
+    width: 16%;
+    height: 193px;
+        top: 57px;
+        bottom: 50px;
+        left: 58px;
+        right: 100px;
+    position: fixed;
+    float: left;
+    background-color: black;
+    border-radius: 130px;
+    }
+
+    .boxin {
+        margin: 10px;
+        width: 109px;
+        height: 110px;
+        top: 9px;
+        bottom: 50px;
+        left: 186px;
+        position: fixed;
+        text-align: center;
+        float: right;
+        background-color: black;
+        border-radius: 130px;
+        }
+
+        .boxin2 {
+            margin: 10px;
+            width: 109px;
+            height: 110px;
+            position: fixed;
+            bottom: 100px;
+            top: 1px;
+            right: 100px;
+            left: 30px;
+            text-align: center;
+            float: left;
+            background-color: black;
+            border-radius: 130px;
+            }
